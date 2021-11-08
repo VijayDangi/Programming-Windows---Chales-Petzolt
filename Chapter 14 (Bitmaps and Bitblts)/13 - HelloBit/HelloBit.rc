@@ -1,0 +1,13 @@
+#include "winres.h"
+#include "Resource.h"
+
+///////////////////////////////////////////////////////////
+//Menu
+HELLOBIT MENU DISCARDABLE
+BEGIN
+    POPUP "&Size"
+    BEGIN
+        MENUITEM "&Big",    IDM_BIG, CHECKED
+        MENUITEM "&Small",  IDM_SMALL
+    END
+END

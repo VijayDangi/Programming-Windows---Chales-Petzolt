@@ -1,0 +1,10 @@
+#include "resource.h"
+
+///////////////////////////////////////////////
+
+STRINGTABLE
+BEGIN
+    IDS_FILENOTFOUND    "File %s not found."
+    IDS_FILETOOBIG      "File %s too large to edit."
+    IDS_FILEREADONLY    "File %s is read-only."
+END

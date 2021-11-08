@@ -1,0 +1,4 @@
+#include <windows.h>
+#include "Resource.h"
+
+MYBITMAP BITMAP bitmap.bmp

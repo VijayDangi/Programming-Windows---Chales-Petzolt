@@ -1,0 +1,9 @@
+#include "winres.h"
+
+///////////////////////////////////////////
+//ICON
+
+HEXCALC ICON DISCARDABLE    "HexCalc.ico"
+
+////////////////////////////
+#include "hexcalc.dlg"

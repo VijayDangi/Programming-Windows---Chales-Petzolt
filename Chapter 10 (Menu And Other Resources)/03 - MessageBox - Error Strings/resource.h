@@ -1,0 +1,3 @@
+#define IDS_FILENOTFOUND 1
+#define IDS_FILETOOBIG   2
+#define IDS_FILEREADONLY 3

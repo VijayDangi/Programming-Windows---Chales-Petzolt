@@ -1,0 +1,22 @@
+//header
+#include "resource.h"
+#include "winres.h"
+//////////////////////////////////////////////////
+//TEXT
+
+ANNABELLEE    TEXT   DISCARDABLE  "poePoem.txt"
+
+//////////////////////////////////////////////////
+//ICON
+
+POEPOEM       ICON   DISCARDABLE  "PoePoem.ico"
+
+/////////////////////////////////////////////////
+//String Table
+
+STRINGTABLE DISCARDABLE
+BEGIN
+    IDS_APPNAME         "POEPOEM"
+    IDS_CAPTION         """Annabel Lee"" by Edgar Allan Poe"
+    IDS_ERRMSG          "Error while registering class."
+END

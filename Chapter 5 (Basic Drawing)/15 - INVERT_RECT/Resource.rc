@@ -1,0 +1,10 @@
+#include <windows.h>
+#include "Resource.h"
+
+MYBITMAP  BITMAP bitmap.bmp
+BLACKHOLE BITMAP balckHole.bmp
+PATTERN   BITMAP DynamicPattern.bmp
+INDIA     BITMAP india.bmp
+SPHERE    BITMAP sphere.bmp
+WAVE      BITMAP wave.bmp
+

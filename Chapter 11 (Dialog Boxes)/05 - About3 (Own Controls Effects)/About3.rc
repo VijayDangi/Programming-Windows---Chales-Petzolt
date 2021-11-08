@@ -1,0 +1,32 @@
+#include "Resource.h"
+#include "winres.h"
+
+//////////////////////////////////////////////////////////
+//DIALOG
+
+ABOUTBOX    DIALOG  DISCARDABLE 32, 32, 250, 100
+STYLE   DS_MODALFRAME | WS_POPUP
+FONT  8, "MS Sans Serif"
+BEGIN
+    CONTROL         "OK", IDOK,     "EllipPush", WS_GROUP | WS_TABSTOP, 73, 79, 50, 20
+    CONTROL     "CANCEL", IDCANCEL, "EllipPush", WS_GROUP | WS_TABSTOP, 130, 79, 50, 20
+    CTEXT       "ABOUT3", IDC_STATIC, 40, 12, 100, 8
+    CTEXT       "About Box Demo Program", IDC_STATIC, 7, 40, 166, 8
+    CTEXT       "(c) Charles Petzold, 1998", IDC_STATIC, 7, 52, 166, 8
+END
+
+//////////////////////////////////////////////////////////
+//MENU
+
+ABOUT3  MENU  DISCARDABLE
+BEGIN
+    POPUP   "&Help"
+    BEGIN
+        MENUITEM    "&About About3...",     IDM_APP_ABOUT
+    END
+END
+
+//////////////////////////////////////////////////////////
+//ICON
+
+ABOUT3      ICON    DISCARDABLE     "icon1.ico"

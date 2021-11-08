@@ -1,0 +1,21 @@
+#include <winres.h>
+#include "Resource.h"
+
+////////////////////////////////////////
+//ACCELERATOR
+
+DIBHEADS ACCELERATORS DISCARDABLE
+BEGIN
+    "O", IDM_FILE_OPEN, VIRTKEY, CONTROL, NOINVERT
+END
+
+///////////////////////////////////////
+//MENU
+
+DIBHEADS MENU DISCARDABLE
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Open\tCtrl+O",  IDM_FILE_OPEN
+    END
+END

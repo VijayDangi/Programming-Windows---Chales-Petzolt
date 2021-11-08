@@ -1,0 +1,12 @@
+#define IDM_FILE_OPEN       40001
+#define IDM_FILE_PRINT      40002
+#define IDM_FILE_SAVE       40003
+
+#define IDM_SHOW_NORMAL     40004
+#define IDM_SHOW_CENTER     40005
+#define IDM_SHOW_STRETCH    40006
+#define IDM_SHOW_ISOSTRETCH 40007
+
+#define IDM_EDIT_COPY       40008
+#define IDM_EDIT_CUT        40009
+#define IDM_EDIT_DELETE     40010

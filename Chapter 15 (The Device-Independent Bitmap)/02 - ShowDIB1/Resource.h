@@ -1,0 +1,2 @@
+#define IDM_FILE_OPEN   40001
+#define IDM_FILE_SAVE   40002

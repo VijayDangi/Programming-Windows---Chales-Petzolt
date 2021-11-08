@@ -1,0 +1,29 @@
+#include "winresrc.h"
+#include "Resource.h"
+
+////////////////////////////////////////////////
+//MENU
+MENUFILE MENU DISCARDABLE
+BEGIN
+    MENUITEM  "&New",           IDM_FILE_NEW
+    MENUITEM  "&open...",       IDM_FILE_OPEN
+    MENUITEM  "&Save",          IDM_FILE_SAVE
+    MENUITEM  "Save &As...",    IDM_FILE_SAVE_AS
+END
+
+MENUEDIT MENU DISCARDABLE
+BEGIN
+    MENUITEM  "&Undo",          IDM_EDIT_UNDO
+    MENUITEM  SEPARATOR
+    MENUITEM  "Cu&t",           IDM_EDIT_CUT
+    MENUITEM  "&Copy",          IDM_EDIT_COPY
+    MENUITEM  "&Paste",         IDM_EDIT_PASTE
+    MENUITEM  "De&lete",        IDM_EDIT_CLEAR
+END
+
+//////////////////////////////////////////////////
+//BITMAP
+BITMAPFONT  BITMAP  DISCARDABLE  "Fontlabl.bmp"
+BITMAPHELP  BITMAP  DISCARDABLE  "Bighelp.bmp"
+BITMAPEDIT  BITMAP  DISCARDABLE  "Editlabl.bmp"
+BITMAPFILE  BITMAP  DISCARDABLE  "Filelabl.bmp"

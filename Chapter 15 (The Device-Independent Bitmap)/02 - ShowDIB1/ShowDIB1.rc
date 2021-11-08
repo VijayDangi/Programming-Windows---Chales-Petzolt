@@ -1,0 +1,14 @@
+#include <winresrc.h>
+#include "Resource.h"
+
+/////////////////////////////////////////////////////////////////////////
+//MENU
+
+SHOWDIB1 MENU DISCARDABLE
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Open...", IDM_FILE_OPEN
+        MENUITEM "&Save...", IDM_FILE_SAVE
+    END
+END

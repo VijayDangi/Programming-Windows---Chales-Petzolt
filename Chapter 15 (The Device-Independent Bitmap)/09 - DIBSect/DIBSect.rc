@@ -1,0 +1,13 @@
+#include <Winresrc.h>
+#include "Resource.h"
+
+///////////////////////////////////////////////////
+//MENU
+
+DIBSECT MENU DISCARDABLE
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Open",   IDM_FILE_OPEN
+    END
+END

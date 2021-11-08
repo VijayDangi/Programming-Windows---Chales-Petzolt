@@ -1,0 +1,19 @@
+#include <winresrc.h>
+#include "Resource.h"
+
+////////////////////////////////////////////
+//ACCELERATORS
+SEQDISP ACCELERATORS DISCARDABLE
+BEGIN
+    "O", IDM_FILE_OPEN, VIRTKEY, CONTROL, NOINVERT
+END
+
+///////////////////////////////////////////
+//MENU
+SEQDISP MENU DISCARDABLE
+BEGIN
+    POPUP "&File",
+    BEGIN
+        MENUITEM "&Open...\tCtrl+O", IDM_FILE_OPEN
+    END
+END

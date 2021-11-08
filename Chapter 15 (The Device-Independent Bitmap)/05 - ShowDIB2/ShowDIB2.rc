@@ -1,0 +1,45 @@
+#include <winresrc.h>
+#include "Resource.h"
+
+//////////////////////////////////////////////////////////////////////
+//MENU
+
+SHOWDIB2 MENU DISCARDABLE
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Open...\tCtrl+O",         IDM_FILE_OPEN
+        MENUITEM "&Save...\tCtrl+S",         IDM_FILE_SAVE
+        MENUITEM SEPARATOR
+        MENUITEM "&Print\tCtrl+P",           IDM_FILE_PRINT
+    END
+    
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "Cu&t\tCtrl+X",             IDM_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",            IDM_EDIT_COPY
+        MENUITEM "&Delete\tDelete",          IDM_EDIT_DELETE
+    END
+    
+    POPUP "&Show"
+    BEGIN
+        MENUITEM "&Actual Size",             IDM_SHOW_NORMAL, CHECKED
+        MENUITEM "&Center",                  IDM_SHOW_CENTER
+        MENUITEM "&Stretch to Window",       IDM_SHOW_STRETCH
+        MENUITEM "Stretch &Isotropically",   IDM_SHOW_ISOSTRETCH
+    END
+END
+
+
+////////////////////////////////////////////////////////////////
+//ACCELERATORS
+
+SHOWDIB2 ACCELERATORS DISCARDABLE
+BEGIN
+    "C",        IDM_EDIT_COPY,   VIRTKEY, CONTROL, NOINVERT
+    "O",        IDM_FILE_OPEN,   VIRTKEY, CONTROL, NOINVERT
+    "P",        IDM_FILE_PRINT,  VIRTKEY, CONTROL, NOINVERT
+    "S",        IDM_FILE_SAVE,   VIRTKEY, CONTROL, NOINVERT
+    VK_DELETE,  IDM_EDIT_DELETE, VIRTKEY, NOINVERT
+    "X",        IDM_EDIT_CUT,    VIRTKEY, CONTROL, NOINVERT
+END

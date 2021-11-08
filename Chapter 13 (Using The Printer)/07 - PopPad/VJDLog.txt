@@ -1,0 +1,31 @@
+PopPad.c Program Started*******
+PopPad.c WM_CREATE: Enter
+PopFile.c PopFileInitialize(): Enter
+PopFile.c PopFileInitialize(): Return
+PopFont.c PopFontInitialize(): Enter
+PopFont.c PopFontInitialize(): Return
+PopPad.c DoCaption(): szCaption => PopPad - (untitled)
+PopPad.c DoCaption(): return
+PopPad.c WM_CREATE return
+PopPad.c WM_SETFOCUS Enter
+PopPad.c WM_COMMAND: Edit Control Message Enter
+PopPad.c WM_COMMAND: Edit Control Message Return
+PopPad.c WM_SETFOCUS Return
+PopPad.c WM_SIZE Enter
+PopPad.c WM_SIZE Return
+PopPad.c IDM_FILE_PRINT: Enter
+PopPrnt0.c PopPrntPrintFile()
+PopPad.c WM_COMMAND: Edit Control Message Enter
+PopPad.c WM_COMMAND: Edit Control Message Return
+PopPad.c WM_SETFOCUS Enter
+PopPad.c WM_SETFOCUS Return
+PopPad.c WM_COMMAND: Edit Control Message Enter
+PopPad.c WM_COMMAND: Edit Control Message Return
+PopPad.c IDM_FILE_PRINT: Return
+PopPad.c WM_CLOSE: Enter
+PopPad.c WM_COMMAND: Edit Control Message Enter
+PopPad.c WM_COMMAND: Edit Control Message Return
+PopPad.c WM_DESTROY
+PopFont.c PopFontDeinitialize()
+PopPad.c WM_CLOSE: Return
+PopPad.c Program Terminated******************
