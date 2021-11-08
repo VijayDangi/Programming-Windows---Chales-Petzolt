@@ -1,10 +1,10 @@
 
 /*______________________ ANSI VERSION ______________________*/
-//compile
+  //compile
 cl.exe /EHsc /c <filename>.c    ===> <filename>.obj
 
 /*______________________ UNICODE VERSION ______________________*/
-//compile
+  //compile
 cl.exe /EHsc /c /D UNICODE <filename>.c    ===> <filename>.obj
 
 
