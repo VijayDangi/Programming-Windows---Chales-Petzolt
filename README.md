@@ -1,12 +1,11 @@
 
-/******************* ANSI VERSION ****************************************************/
+/*______________________ ANSI VERSION ______________________*/
 //compile
 cl.exe /EHsc /c <filename>.c    ===> <filename>.obj
 
-/******************* UNICODE VERSION ****************************************************/
+/*______________________ UNICODE VERSION ______________________*/
 //compile
 cl.exe /EHsc /c /D UNICODE <filename>.c    ===> <filename>.obj
-
 
 
 //if resource file
