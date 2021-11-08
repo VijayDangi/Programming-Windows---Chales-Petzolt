@@ -1,18 +1,16 @@
 
 ______________________ ANSI VERSION ______________________
 
-  **compile**
-  
+**compile**
 cl.exe /EHsc /c <filename>.c    ===> <filename>.obj
 
 ______________________ UNICODE VERSION ______________________
  
-  **compile**
- 
+**compile**
 cl.exe /EHsc /c /D UNICODE <filename>.c    ===> <filename>.obj
 
 
- **if resource file**
+**if resource file**\n
 rc.exe <Resource_filename>.rc	===> <Resource_filename>.res
 
 
